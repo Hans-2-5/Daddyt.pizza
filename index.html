@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hans Oyeyemi">
+    <meta name="description" content="This is the official website for Daddy's pizza">
+    <title>Daddy's Pizza</title>
+    <link rel="icon" href="img/pexels-nataliya-vaitkevich-5792328.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h1>WELCOME TO DADDY'S PIZZA</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About <abbr title="DADDY'S PIZZA">DP</abbr></a>
+                </li>
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Store Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                    <figure>
+                        <img src="img/pizza.jpg" title="Very delicious" width="400" height="270" alt="PIZZA">
+                        <figcaption>
+                            PIZZA READY TO EAT
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <article id="about">
+            <h2>About <abbr title="DADDY'S PIZZA">DP</abbr></h2>
+            <p>
+                <abbr title="DADDY'S PIZZA">DP</abbr> was founded in <time datetime="1918">1918</time> it was built due
+                to the love of pizza🍕🍕🍕🍕
+            </p>
+            <aside>
+                <h3>PIZZA TRIVA</h3>
+                <details>
+                    <summary>When did Taco first appear in the United Kingdom</summary>
+                    <p>
+                        Pizza first appeared on the London food scene in the 1950s, brought by Italian immigrants who
+                        were looking for a new life abroad. These pizzerias were often small family-run businesses, and
+                        their delicious pies quickly became popular with locals who had never tasted anything like it
+                        before.
+                    </p>
+                </details>
+            </aside>
+        </article>
+    <hr>
+        <article id="menu">
+            <h2>Our Menu</h2>
+            <table>
+                <caption>Our Menu</caption>
+                <thead>
+                    <tr>
+                        <th>Pizza</th>
+                        <th scope="col"><abbr title="Ouantity">Oty</abbr></th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            pizza
+                        </th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                           drinks
+                        </th>
+                        <td>1</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$4.50</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            Kiddie Meal $10 &amp; Special VIP Burger Pack $50
+                        </td>
+                    </tr>
+                </tfoot>
+                </table>
+        </article>
+    </main>
+         <p>
+            <label for="pizza">pizza</label>
+            <input type="text" name="pizza" id="pizza" list="pizza-list">
+            <datalist id="pizza-list">
+                <option value="bacon and ham">
+                <option value="pineapple and ham">
+                <option value="tuna and sweetcorn">
+                <option value="meat feast">
+                <option value="pepperoni">
+                <option value="spicy pork  sausage and pepperoni">
+            </datalist>
+        </p> 
+        <hr>
+
+         <p>
+            <label for="pizza">Amount</label>
+            <input type="text" name="amount" id="amount" list="amount-list">
+            <datalist id="amount-list">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+            </datalist>
+        </p> 
+        <hr>
+         <p>
+            <label for="drink">Drinks</label>
+            <input type="text" name="drink" id="drink" list="drink-list">
+            <datalist id="drink-list">
+                <option value="Daddy's Special Smoothie">
+                <option value="coke">
+                <option value="prime">
+                <option value="slurpy">
+                <option value="fanta">
+                <option value="pepsi">
+            </datalist>
+        </p> 
+         <p>
+            <label for="size">Size</label>
+            <input type="text" name="size" id="size" list="size-list">
+            <datalist id="size-list">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+            </datalist>
+        </p> 
+        <hr>
+        <form action="https://httpbin.org/get" method="get">
+        <br>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Order</button>
+        <button type="reset">Reset</button>
+    </form>
+    <hr>
+    <figure>
+        <img src="img/pexels-ali-dashti-16962424.jpg" title="Very delicious" width="400" height="270" alt="PIZZA">
+        <figcaption>
+           Special VIP Meal
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="img/kiddie.png" title="Very delicious" width="400" height="270" alt="PIZZA">
+        <figcaption>
+      Kiddie meal
+        </figcaption>
+    </figure>
+    <hr>
+    <footer>
+        <p> &copy; DADDY PIZZA</p>
+    </footer>
+    <ul>
+        <li>
+            <a href="#">Back To Top</a>
+        </li>
+    </ul>
+
+</body>
+
+</html>
